@@ -60,3 +60,74 @@
 // };
 
 // printGrid(createSpiral(7));
+
+
+// const ages = [15,23,51,2,22,12,5,23]
+
+// function filtering(Array){
+//   return Array.filter((age)=>{return age > 20})
+// }
+
+// console.log(filtering(ages))
+
+
+// const students = [
+//   {age:20},
+//   {age:10}, 
+//   {age:30},
+//   {age:21},
+//   {age:25},
+//   {age:12},
+//   {age:19},
+// ]
+
+
+// function filterStudens(students,cb){
+//   let result = [];
+//   for(let student of students){
+//     if(cb(student)){
+//       result.push(student)
+//     }
+//   }
+//   return result;
+// }
+
+// console.log(filterStudens(students,(student)=>{
+//   return student.age > 20;
+// }));
+
+
+// console.log(
+//   students.filter((student)=>{
+//     return student.age > 20
+//   })
+// )
+
+
+
+// const string = "Bla Bla";
+// const word = "l"
+// function countCharacters(Text,word){
+// const historgram = {};
+// historgram[word] = 0;
+// for(let i of Text){
+//  if(i === word){
+//   historgram[word]++
+  
+//   }
+// };
+//  return historgram
+// };
+// console.log(countCharacters(string,word))
+
+
+// const [, , characterToFind, word] = process.argv ;
+
+// let count = 0;
+
+// for( let character of word){
+//   if(character === characterToFind) count++
+// }
+
+
+// console.log(``)
