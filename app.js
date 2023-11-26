@@ -10,3 +10,53 @@
 // console.log(countCharacters(string))
 
 
+// const string = "Hello World !"
+
+//  function firstLetter(string) {
+//   const result = [];
+//   const newString = string.split(' ')
+//   for(let char of newString){
+//     result.push(char[0])
+//   }
+//   return result
+// }
+
+// console.log(firstLetter(string))
+
+
+// function printGrid(grid){
+//   for(let i = 0; i < grid.length; i++){
+//     console.log(grid[i].join(' '));
+//   }
+// }
+
+// function create2DGrid(size){
+//   let i = size;
+//   const grid = [];
+//   while(i--) grid.push(new Array(size));
+//   return grid;
+// }
+
+
+// function createSpiral(n){
+//   const spiral = create2DGrid(n);
+//   let currentNumber = 1;
+//   let i= 0;
+//   let j = 0;
+//   let di = 0;
+//   let dj = 1;
+
+//   while (currentNumber <= n * n){
+//     spiral[i][j] = currentNumber++;
+//     if(j + dj === n || i + di === n || j + dj === -1 || spiral[i+di][j + dj]){
+//       const tmpDi = di;
+//       di = dj;
+//       dj = -tmpDi;
+//     }
+//     i += di;
+//     j += dj;
+//   }
+//   return spiral;
+// };
+
+// printGrid(createSpiral(7));
